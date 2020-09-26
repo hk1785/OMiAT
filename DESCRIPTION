@@ -1,0 +1,12 @@
+Package: OMiAT
+Version: 6.0
+Date: 2020-9-26
+Title: Optimal Microbiome-based Association Test (OMiAT)
+Author: Hyunwook Koh
+Maintainer: Hyunwook Koh <hyunwook.koh@stonybrook.edu>
+Description: This software package provides facilities for 1) optimal microbiome-based association test (OMiAT) which tests the association between the entire community (e.g., kingdom) or indivisual upper-level taxa (e.g., phylum, class, order, family, genus) and a host phenotype of interest (or disease status). 2) microbiome comprehensive association mapping (MiCAM) which tests the association for all microbial taxa through a breadth of taxonomic levels. Continuous/binary responses (e.g., BMI, disease status) can be surveyed with/without covariate adjustments (e.g., age, gender).
+NeedsCompilation: No
+Depends: R(>= 3.5.3)
+Imports: ape, BiasedUrn, cluster, CompQuadForm, dirmult, ecodist, GUniFrac, phangorn, phyloseq, robustbase, robCompositions
+License: GPL-2
+URL: https://github.com/hk1785/OMiAT
